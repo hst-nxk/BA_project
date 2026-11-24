@@ -1,8 +1,0 @@
-course_domain,code_module,enrollments,at_risk_rate,withdrawal_rate,no_activity_rate
-STEM,CCC,4434,0.622,0.445,0.133
-STEM,DDD,6272,0.584,0.359,0.114
-STEM,EEE,2934,0.438,0.246,0.106
-STEM,FFF,7762,0.53,0.31,0.11
-Social Sciences,AAA,748,0.29,0.168,0.027
-Social Sciences,BBB,7909,0.525,0.302,0.179
-Social Sciences,GGG,2534,0.403,0.115,0.078

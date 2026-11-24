@@ -1,8 +1,0 @@
-rule,violations,denominator,violation_pct
-session_minutes < 0,5412,2709570,0.2
-session_minutes > 1440 (longer than a day),2724,2709570,0.101
-videos_completed > videos_started,8137,2709570,0.3
-login_hour outside 0..23,0,2709570,0.0
-device_type not in canonical vocabulary,214488,2709570,7.916
-device_type unmappable after standardisation,0,2709570,0.0
-forum_replies > forum_posts,0,2709570,0.0

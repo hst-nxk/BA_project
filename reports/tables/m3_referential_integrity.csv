@@ -1,6 +1,0 @@
-relationship,child_keys,orphan_keys,integrity_pct
-studentRegistration -> studentInfo,32593,0,100.0
-studentAssessment -> assessments,188,0,100.0
-studentInfo -> courses,22,0,100.0
-vle -> courses,22,0,100.0
-synthetic sessions -> studentInfo,31807,0,100.0

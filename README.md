@@ -4,7 +4,10 @@ Business Analytics capstone. The project finds the behavioural segments of onlin
 tailored content, pacing and support. The segmentation model is deployed as an API and a dashboard and monitored for
 drift.
 
-**Repository:** https://github.com/hst-nxk/BA_project · **Live:** Dashboard https://learner-segmentation-dashboard.onrender.com · API https://learner-segmentation-api.onrender.com/docs · Report `reports/Final_Report.pdf` · Slides `reports/Final_Presentation.pptx`
+**Repository:** https://github.com/hst-nxk/BA_project · **Live:** Dashboard https://learner-segmentation-dashboard.onrender.com · API https://learner-segmentation-api.onrender.com/docs
+
+The written report and the slides are submitted separately. `reports/` (figures, tables, metrics) is regenerated
+locally by the notebooks and is not tracked in git.
 
 ## Results at a glance
 
@@ -51,7 +54,7 @@ app/dashboard/app.py Streamlit dashboard
 models/              fitted feature pipeline, segmentation model, surrogate tree, personas.json
 monitoring/          Evidently HTML drift reports
 docs/                data dictionary, model card, monitoring playbook, deployment guide, lecture alignment
-reports/             final report (md/docx/pdf), slides (pptx), module documents, figures, tables, metrics
+reports/             (generated locally, not in git) figures, tables, metrics
 tests/               pytest suite
 ```
 
@@ -65,7 +68,6 @@ python -m venv .venv
 .\.venv\Scripts\python -m pytest -q tests
 .\.venv\Scripts\python -m uvicorn app.api.main:app --port 8000
 .\.venv\Scripts\python -m streamlit run app\dashboard\app.py
-.\.venv\Scripts\python scripts\build_reports.py             # report docx/pdf + module docs + slides
 ```
 
 To run only the API and the dashboard, install `requirements.txt`. The committed artefacts are enough.

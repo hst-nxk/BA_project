@@ -1,5 +1,0 @@
-persona,intervention,pass_rate,uplift,cost,ev_no_action,ev_intervene,net_gain_per_learner,break_even_uplift
-Non-starters,tutor_outreach_call,0.001,0.12,35.0,0.4,13.4,13.0,0.088
-Consistent Achievers,automated_nudges,0.896,0.004,2.0,358.4,358.0,-0.4,0.005
-Last-minute Crammers,study_plan_coaching,0.533,0.096,15.0,213.2,236.6,23.4,0.038
-At-risk Disengaged,tutor_outreach_call,0.003,0.15,35.0,1.2,26.2,25.0,0.088

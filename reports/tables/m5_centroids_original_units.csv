@@ -1,4 +1,0 @@
-persona,recency_fraction,active_day_fraction,clicks_per_active_day,weekly_cv_active_span,deadline_click_ratio,avg_score_scheduled,last_minute_submission_share,video_completion_rate,forum_posts_per_week,night_login_share
-Consistent Achievers,0.054,0.434,20.209,1.03,1.545,76.292,0.14,0.742,0.21,0.231
-Last-minute Crammers,0.202,0.152,15.344,1.656,3.266,51.81,0.299,0.546,0.034,0.374
-At-risk Disengaged,0.78,0.056,14.077,0.848,0.99,8.504,0.066,0.538,0.022,0.25

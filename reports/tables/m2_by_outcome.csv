@@ -1,5 +1,0 @@
-final_result,enrollments,active_day_fraction,logins_per_week,avg_score_scheduled,video_completion_rate,forum_posts_per_week,last_minute_submission_share,deadline_click_ratio,recency_fraction,no_activity
-Distinction,3024,0.381,3.629,88.455,0.771,0.154,0.0,1.508,0.03,0.0
-Pass,12361,0.289,2.769,75.4,0.7,0.077,0.125,1.908,0.047,0.0
-Fail,7052,0.078,0.769,21.697,0.563,0.0,0.0,2.182,0.458,0.0
-Withdrawn,10156,0.019,0.179,0.0,0.414,0.0,0.0,0.0,0.907,0.0

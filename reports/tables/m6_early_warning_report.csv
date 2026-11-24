@@ -1,8 +1,0 @@
-class,precision,recall,f1-score,support
-At-risk Disengaged,0.545,0.549,0.547,2295.0
-Consistent Achievers,0.74,0.769,0.754,3296.0
-Last-minute Crammers,0.672,0.624,0.647,4239.0
-Non-starters,0.902,0.999,0.948,1430.0
-accuracy,0.699,0.699,0.699,0.699
-macro avg,0.715,0.735,0.724,11260.0
-weighted avg,0.695,0.699,0.696,11260.0
