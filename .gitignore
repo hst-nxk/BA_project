@@ -17,6 +17,10 @@ derby.log
 .streamlit/secrets.toml
 # report, slides and generated figures/tables/metrics are submitted separately (not in the repo)
 reports/
+# internal team material and report/slide builders (kept locally only)
+docs/DEMO_SCRIPT.md
+scripts/build_reports.py
+scripts/build_slides.py
 # scratch files
 scripts/_*.py
 data/interim/_*
