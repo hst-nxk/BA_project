@@ -1,0 +1,5 @@
+registration_period,enrollments,median_active_day_fraction,median_logins_per_week,mean_avg_score,mean_last_minute_share,withdrawal_rate,at_risk_rate
+early (>60 d before),15482,0.137,1.316,42.166,0.142,0.358,0.551
+standard (15-60 d),15549,0.153,1.486,46.882,0.182,0.274,0.507
+late (<15 d),1283,0.122,1.205,46.515,0.163,0.21,0.497
+after start,234,0.109,1.015,42.948,0.165,0.209,0.496

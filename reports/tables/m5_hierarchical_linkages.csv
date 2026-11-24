@@ -1,0 +1,5 @@
+linkage,cophenetic_corr,silhouette,davies_bouldin,calinski_harabasz,largest_cluster_share,smallest_cluster_share
+single,0.3123,0.214,0.5609,3.4647,0.9997,0.0002
+complete,0.4833,0.1043,2.295,827.1834,0.4177,0.1983
+average,0.605,0.1578,1.3063,152.4141,0.9682,0.0005
+ward,0.515,0.1497,2.0189,1293.6735,0.3895,0.2702

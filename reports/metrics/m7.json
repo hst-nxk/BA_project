@@ -1,0 +1,94 @@
+{
+  "decision_2014J": "NO ACTION",
+  "checks_2014J": {
+    "feature_drift": "GREEN",
+    "segment_share": "GREEN",
+    "centroid_shift": "GREEN",
+    "atypical_share": "GREEN",
+    "silhouette": "GREEN"
+  },
+  "decision_stress": "RE-CLUSTER",
+  "checks_stress": {
+    "feature_drift": "RED",
+    "segment_share": "RED",
+    "centroid_shift": "RED",
+    "atypical_share": "AMBER",
+    "silhouette": "GREEN"
+  },
+  "features_red_2014J": 0,
+  "features_red_stress": 6,
+  "max_shift_pp_2014J": 4.913212453891308,
+  "max_shift_pp_stress": 19.87768847520569,
+  "centroid_shift_2014J": 0.26657543462653494,
+  "centroid_shift_stress": 1.8279523182856068,
+  "atypical_2014J": 0.046998982706002036,
+  "atypical_stress": 0.12288911495422176,
+  "over_time": [
+    {
+      "presentation": "2013B",
+      "enrollments": 4684,
+      "silhouette": 0.2221,
+      "mean_centroid_shift_sd": 0.3567,
+      "atypical_share": 0.0441,
+      "psi_active_day_fraction": 0.0334,
+      "Consistent Achievers": 0.4088,
+      "Last-minute Crammers": 0.2639,
+      "At-risk Disengaged": 0.2186,
+      "Non-starters": 0.1087
+    },
+    {
+      "presentation": "2013J",
+      "enrollments": 8845,
+      "silhouette": 0.1986,
+      "mean_centroid_shift_sd": 0.1465,
+      "atypical_share": 0.0555,
+      "psi_active_day_fraction": 0.0022,
+      "Consistent Achievers": 0.3441,
+      "Last-minute Crammers": 0.3435,
+      "At-risk Disengaged": 0.1949,
+      "Non-starters": 0.1175
+    },
+    {
+      "presentation": "2014B",
+      "enrollments": 7804,
+      "silhouette": 0.1929,
+      "mean_centroid_shift_sd": 0.2505,
+      "atypical_share": 0.0475,
+      "psi_active_day_fraction": 0.0111,
+      "Consistent Achievers": 0.2836,
+      "Last-minute Crammers": 0.3471,
+      "At-risk Disengaged": 0.2264,
+      "Non-starters": 0.1429
+    },
+    {
+      "presentation": "2014J",
+      "enrollments": 11260,
+      "silhouette": 0.1929,
+      "mean_centroid_shift_sd": 0.2666,
+      "atypical_share": 0.047,
+      "psi_active_day_fraction": 0.0094,
+      "Consistent Achievers": 0.2927,
+      "Last-minute Crammers": 0.3765,
+      "At-risk Disengaged": 0.2038,
+      "Non-starters": 0.127
+    }
+  ],
+  "evidently_2014J": [
+    {
+      "metric": "DriftedColumnsCount(drift_share=0.5)",
+      "value": {
+        "count": 2.0,
+        "share": 0.2
+      }
+    }
+  ],
+  "evidently_stress": [
+    {
+      "metric": "DriftedColumnsCount(drift_share=0.5)",
+      "value": {
+        "count": 7.0,
+        "share": 0.7
+      }
+    }
+  ]
+}

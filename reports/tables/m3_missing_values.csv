@@ -1,0 +1,10 @@
+table,column,missing,missing_pct,meaning_and_treatment
+assessments,date,11,5.34,"Exam deadline not published (structural, MNAR) → keep NA; exams excluded from timeliness"
+studentInfo,imd_band,1111,3.409,Deprivation band unknown (MAR on region) → explicit 'Unknown' + flag
+studentRegistration,date_registration,45,0.138,Registration day not recorded → NA + flag; only affects days-to-first-login
+studentRegistration,date_unregistration,22521,69.098,"Learner did not unregister (structural, not an error) → keep NA"
+studentAssessment,score,173,0.099,Mark not recorded → excluded from mean; non-submission counted as 0 in avg_score_scheduled
+vle,week_from,5243,82.385,Resource not planned for a specific week (structural) → not used
+vle,week_to,5243,82.385,Resource not planned for a specific week (structural) → not used
+synthetic_login_sessions,device_type,27112,1.001,Client did not report device → 'unknown' category
+synthetic_login_sessions,session_minutes,54046,1.995,Session not closed / logging gap (MCAR by design) → learner-median imputation + flag

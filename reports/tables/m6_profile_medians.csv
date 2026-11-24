@@ -1,0 +1,20 @@
+feature,Non-starters,Consistent Achievers,Last-minute Crammers,At-risk Disengaged
+recency_fraction,1.0,0.029,0.104,0.836
+active_day_fraction,0.0,0.405,0.141,0.033
+clicks_per_active_day,0.0,20.31,14.971,14.228
+weekly_cv_active_span,0.0,1.012,1.606,0.915
+deadline_click_ratio,0.0,1.509,3.417,0.72
+avg_score_scheduled,0.0,80.154,57.608,5.167
+last_minute_submission_share,0.0,0.083,0.25,0.0
+video_completion_rate,0.0,0.763,0.555,0.528
+forum_posts_per_week,0.0,0.229,0.0,0.0
+night_login_share,0.0,0.139,0.226,0.111
+logins_per_week,0.0,3.868,1.338,0.333
+submission_rate,0.0,1.0,0.889,0.091
+on_time_rate_scheduled,0.0,0.833,0.462,0.0
+median_hours_before_deadline,30.92,41.38,2.72,4.795
+days_to_first_login,39.0,44.0,42.0,46.0
+mobile_share,0.0,0.102,0.123,0.143
+mean_session_minutes,6.0,24.153,19.598,18.452
+total_clicks,0.0,2097.5,523.0,130.0
+engagement_score,5.39,83.095,56.7,28.32

@@ -1,0 +1,6 @@
+rule,flagged,true_bots,false_positives,precision,recall
+r1_extreme_session_count,221,109,112,0.493,0.956
+r2_sub_minute_sessions,124,114,10,0.919,1.0
+r3_automation_user_agent,114,114,0,1.0,1.0
+r4_uniform_hours,114,114,0,1.0,1.0
+bot_flag,114,114,0,1.0,1.0

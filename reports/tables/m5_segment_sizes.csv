@@ -1,0 +1,5 @@
+segment_id,persona,enrollments,share
+S0,Non-starters,4093,0.1256
+S1,Consistent Achievers,10468,0.3212
+S2,Last-minute Crammers,11222,0.3443
+S3,At-risk Disengaged,6810,0.2089

@@ -1,0 +1,188 @@
+{
+  "segments": [
+    {
+      "segment_id": "S0",
+      "name": "Non-starters",
+      "color": "#8a8984",
+      "description": "Registered but never opened the course materials in the course window. 88% withdraw; most never submit anything. The decision point is the first 10 days.",
+      "kpis": {
+        "enrollments": 4093.0,
+        "share": 0.126,
+        "median_engagement_score": 5.39,
+        "pass_rate": 0.001,
+        "distinction_rate": 0.0,
+        "withdrawal_rate": 0.885,
+        "at_risk_rate": 0.999
+      },
+      "profile_medians": {
+        "recency_fraction": 1.0,
+        "active_day_fraction": 0.0,
+        "clicks_per_active_day": 0.0,
+        "weekly_cv_active_span": 0.0,
+        "deadline_click_ratio": 0.0,
+        "avg_score_scheduled": 0.0,
+        "last_minute_submission_share": 0.0,
+        "video_completion_rate": 0.0,
+        "forum_posts_per_week": 0.0,
+        "night_login_share": 0.0,
+        "logins_per_week": 0.0,
+        "submission_rate": 0.0,
+        "on_time_rate_scheduled": 0.0,
+        "median_hours_before_deadline": 30.92,
+        "days_to_first_login": 39.0,
+        "mobile_share": 0.0,
+        "mean_session_minutes": 6.0,
+        "total_clicks": 0.0,
+        "engagement_score": 5.39
+      },
+      "recommendations": {
+        "content": "Short 'first 15 minutes' onboarding module and a visible week-1 checklist.",
+        "pacing": "Soft-start deadline: first activity expected within 7 days of course start.",
+        "support": "Automated welcome sequence on day 1, 3 and 7; tutor call if still inactive on day 10; offer deferral.",
+        "kpi": "Share starting within 14 days; withdrawal before day 30.",
+        "intervention": "automated_nudges"
+      }
+    },
+    {
+      "segment_id": "S1",
+      "name": "Consistent Achievers",
+      "color": "#1baf7a",
+      "description": "Study on ~40% of course days at an even pace, submit everything with a median 41 h to spare, complete ~76% of videos and post in forums. 90% pass, 22% with distinction.",
+      "kpis": {
+        "enrollments": 10468.0,
+        "share": 0.321,
+        "median_engagement_score": 83.095,
+        "pass_rate": 0.896,
+        "distinction_rate": 0.225,
+        "withdrawal_rate": 0.03,
+        "at_risk_rate": 0.104
+      },
+      "profile_medians": {
+        "recency_fraction": 0.029045643153526972,
+        "active_day_fraction": 0.4049586776859504,
+        "clicks_per_active_day": 20.310101710587148,
+        "weekly_cv_active_span": 1.0122337026368875,
+        "deadline_click_ratio": 1.5091463171168602,
+        "avg_score_scheduled": 80.15384615384616,
+        "last_minute_submission_share": 0.08333333333333333,
+        "video_completion_rate": 0.762964133744607,
+        "forum_posts_per_week": 0.22857142857142856,
+        "night_login_share": 0.13934426229508196,
+        "logins_per_week": 3.8684210526315788,
+        "submission_rate": 1.0,
+        "on_time_rate_scheduled": 0.8333333333333334,
+        "median_hours_before_deadline": 41.379999999999995,
+        "days_to_first_login": 44.0,
+        "mobile_share": 0.10185185185185185,
+        "mean_session_minutes": 24.15329593810445,
+        "total_clicks": 2097.5,
+        "engagement_score": 83.095
+      },
+      "recommendations": {
+        "content": "Advanced / extension content, recognition badges, pathways to next module.",
+        "pacing": "Standard or accelerated pacing.",
+        "support": "Recruit as peer mentors / forum moderators; minimal tutor time needed.",
+        "kpi": "Distinction rate, progression to next module.",
+        "intervention": "peer_study_group"
+      }
+    },
+    {
+      "segment_id": "S2",
+      "name": "Last-minute Crammers",
+      "color": "#eb6834",
+      "description": "Active on ~14% of days, with study concentrated on deadline days (3.4x the uniform rate) and bursty weeks; a quarter of work is submitted in the final 24 h (median lead time under 3 hours) and night logins are more common. They submit most work (89%) and score 58 on average: half pass, a third fail - the most 'movable' group.",
+      "kpis": {
+        "enrollments": 11222.0,
+        "share": 0.344,
+        "median_engagement_score": 56.7,
+        "pass_rate": 0.533,
+        "distinction_rate": 0.06,
+        "withdrawal_rate": 0.16,
+        "at_risk_rate": 0.467
+      },
+      "profile_medians": {
+        "recency_fraction": 0.1037037037037037,
+        "active_day_fraction": 0.14068441064638784,
+        "clicks_per_active_day": 14.971217105263158,
+        "weekly_cv_active_span": 1.6058653503034166,
+        "deadline_click_ratio": 3.417256188616932,
+        "avg_score_scheduled": 57.607692307692304,
+        "last_minute_submission_share": 0.25,
+        "video_completion_rate": 0.5545774617205789,
+        "forum_posts_per_week": 0.0,
+        "night_login_share": 0.22648879716981132,
+        "logins_per_week": 1.3377192982456139,
+        "submission_rate": 0.8888888888888888,
+        "on_time_rate_scheduled": 0.46153846153846156,
+        "median_hours_before_deadline": 2.7199999999999998,
+        "days_to_first_login": 42.0,
+        "mobile_share": 0.12280701754385964,
+        "mean_session_minutes": 19.597916666666666,
+        "total_clicks": 523.0,
+        "engagement_score": 56.7
+      },
+      "recommendations": {
+        "content": "Break assessments into checkpoints; release practice quizzes 7-10 days before each deadline.",
+        "pacing": "Interim mini-deadlines and calendar nudges 5 and 2 days before deadlines (not at night).",
+        "support": "Study-plan coaching session on time management; peer accountability pairs.",
+        "kpi": "Last-minute submission share, deadline click ratio.",
+        "intervention": "study_plan_coaching"
+      }
+    },
+    {
+      "segment_id": "S3",
+      "name": "At-risk Disengaged",
+      "color": "#e34948",
+      "description": "Started, then drifted away: active on ~3% of course days, last seen early (median recency 0.84 of the course), submit ~9% of assessments, median score 5/100. 65% withdraw, the rest fail \u2014 but they did start, so they can still be reached.",
+      "kpis": {
+        "enrollments": 6810.0,
+        "share": 0.209,
+        "median_engagement_score": 28.32,
+        "pass_rate": 0.003,
+        "distinction_rate": 0.0,
+        "withdrawal_rate": 0.65,
+        "at_risk_rate": 0.997
+      },
+      "profile_medians": {
+        "recency_fraction": 0.8364312267657993,
+        "active_day_fraction": 0.03333333333333333,
+        "clicks_per_active_day": 14.2276295133438,
+        "weekly_cv_active_span": 0.9145538543666285,
+        "deadline_click_ratio": 0.7202879884897428,
+        "avg_score_scheduled": 5.166666666666667,
+        "last_minute_submission_share": 0.0,
+        "video_completion_rate": 0.5284184864096549,
+        "forum_posts_per_week": 0.0,
+        "night_login_share": 0.1111111111111111,
+        "logins_per_week": 0.3333333333333333,
+        "submission_rate": 0.09090909090909091,
+        "on_time_rate_scheduled": 0.0,
+        "median_hours_before_deadline": 4.795,
+        "days_to_first_login": 46.0,
+        "mobile_share": 0.14285714285714285,
+        "mean_session_minutes": 18.45230987917555,
+        "total_clicks": 130.0,
+        "engagement_score": 28.32
+      },
+      "recommendations": {
+        "content": "Condensed 'catch-up path' covering assessed outcomes only; mobile-friendly micro lessons.",
+        "pacing": "Re-planned personal schedule with one achievable milestone per week; extension policy explained.",
+        "support": "Proactive tutor outreach call when recency > 14 days; refer to student-support services.",
+        "kpi": "Recency < 7 days, next assessment submitted.",
+        "intervention": "tutor_outreach_call"
+      }
+    }
+  ],
+  "features": [
+    "recency_fraction",
+    "active_day_fraction",
+    "clicks_per_active_day",
+    "weekly_cv_active_span",
+    "deadline_click_ratio",
+    "avg_score_scheduled",
+    "last_minute_submission_share",
+    "video_completion_rate",
+    "forum_posts_per_week",
+    "night_login_share"
+  ]
+}

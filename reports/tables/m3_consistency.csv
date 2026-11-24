@@ -1,0 +1,6 @@
+consistency check,records
+imd_band uses two spellings for one decile ('10-20' vs 'x-y%'),3516
+"Withdrawn outcome without unregistration date, or date without Withdrawn",102
+Submission after course end (excluded from current-behaviour features),85
+First recorded activity before registration date,0
+Synthetic device_type: 17 spellings of 3 classes,214488

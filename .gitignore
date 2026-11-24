@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+# large / regenerable data (rebuilt by notebooks 01-06)
+data/raw/*.csv
+data/interim/
+data/synthetic/*.parquet
+data/processed/
+data/warehouse/
+data/monitoring/*.jsonl
+models/early_warning_rf.joblib
+spark-warehouse/
+metastore_db/
+derby.log
+.streamlit/secrets.toml
+# scratch files
+scripts/_*.py
+data/interim/_*

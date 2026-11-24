@@ -1,0 +1,46 @@
+|--- active_day_fraction <= 0.26
+|   |--- recency_fraction <= 0.54
+|   |   |--- forum_posts_per_week <= 0.16
+|   |   |   |--- deadline_click_ratio <= 1.43
+|   |   |   |   |--- class: Last-minute Crammers
+|   |   |   |--- deadline_click_ratio >  1.43
+|   |   |   |   |--- class: Last-minute Crammers
+|   |   |--- forum_posts_per_week >  0.16
+|   |   |   |--- deadline_click_ratio <= 2.97
+|   |   |   |   |--- class: Consistent Achievers
+|   |   |   |--- deadline_click_ratio >  2.97
+|   |   |   |   |--- class: Last-minute Crammers
+|   |--- recency_fraction >  0.54
+|   |   |--- last_minute_submission_share <= 0.29
+|   |   |   |--- deadline_click_ratio <= 4.47
+|   |   |   |   |--- class: At-risk Disengaged
+|   |   |   |--- deadline_click_ratio >  4.47
+|   |   |   |   |--- class: At-risk Disengaged
+|   |   |--- last_minute_submission_share >  0.29
+|   |   |   |--- deadline_click_ratio <= 2.45
+|   |   |   |   |--- class: At-risk Disengaged
+|   |   |   |--- deadline_click_ratio >  2.45
+|   |   |   |   |--- class: Last-minute Crammers
+|--- active_day_fraction >  0.26
+|   |--- active_day_fraction <= 0.35
+|   |   |--- forum_posts_per_week <= 0.04
+|   |   |   |--- deadline_click_ratio <= 2.39
+|   |   |   |   |--- class: Consistent Achievers
+|   |   |   |--- deadline_click_ratio >  2.39
+|   |   |   |   |--- class: Last-minute Crammers
+|   |   |--- forum_posts_per_week >  0.04
+|   |   |   |--- deadline_click_ratio <= 3.24
+|   |   |   |   |--- class: Consistent Achievers
+|   |   |   |--- deadline_click_ratio >  3.24
+|   |   |   |   |--- class: Last-minute Crammers
+|   |--- active_day_fraction >  0.35
+|   |   |--- forum_posts_per_week <= 0.01
+|   |   |   |--- avg_score_scheduled <= 71.12
+|   |   |   |   |--- class: Consistent Achievers
+|   |   |   |--- avg_score_scheduled >  71.12
+|   |   |   |   |--- class: Consistent Achievers
+|   |   |--- forum_posts_per_week >  0.01
+|   |   |   |--- video_completion_rate <= 0.45
+|   |   |   |   |--- class: Consistent Achievers
+|   |   |   |--- video_completion_rate >  0.45
+|   |   |   |   |--- class: Consistent Achievers

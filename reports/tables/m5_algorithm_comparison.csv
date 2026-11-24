@@ -1,0 +1,4 @@
+algorithm,clusters,noise_share,silhouette,davies_bouldin,calinski_harabasz,largest_cluster_share,stability_ari,scales_to_all_learners,assigns_new_learners
+K-Means (k=3),3,0.0,0.2057,1.679,5207.7591,0.3841,0.9558,"yes, O(nkt)",yes (nearest centroid)
+"Agglomerative Ward (k=3, 6k sample)",3,0.0,0.1497,2.0189,1293.6735,0.3895,0.4434,"no, O(n²) memory",no (needs re-fit or a classifier)
+"DBSCAN (eps=1.4, MinPts=20)",2,0.0799,0.2533,0.9564,184.4272,0.9147,,yes,partly (core-point neighbourhood)

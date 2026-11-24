@@ -1,0 +1,414 @@
+{
+  "triggers": {
+    "psi_feature_red": 0.25,
+    "psi_feature_amber": 0.1,
+    "n_features_red": 2,
+    "segment_share_pp_red": 10.0,
+    "segment_share_pp_amber": 5.0,
+    "centroid_shift_red": 0.5,
+    "centroid_shift_amber": 0.3,
+    "atypical_share_red": 0.15,
+    "atypical_share_amber": 0.08,
+    "silhouette_drop_red": 0.05
+  },
+  "latest": {
+    "batch": "2014J incoming cohort",
+    "evaluated_at": "2026-11-23T05:43:42+00:00",
+    "n_reference": 21333,
+    "n_current": 11260,
+    "features_red": 0,
+    "max_segment_shift_pp": 4.913212453891308,
+    "segment_chi2_pvalue": 5.41305383049548e-21,
+    "mean_centroid_shift_sd": 0.26657543462653494,
+    "centroid_shifts_sd": [
+      0.191,
+      0.378,
+      0.231
+    ],
+    "atypical_share": 0.046998982706002036,
+    "silhouette_current": 0.19348614130529818,
+    "silhouette_train": 0.20566131370253202,
+    "checks": {
+      "feature_drift": "GREEN",
+      "segment_share": "GREEN",
+      "centroid_shift": "GREEN",
+      "atypical_share": "GREEN",
+      "silhouette": "GREEN"
+    },
+    "decision": "NO ACTION",
+    "feature_drift": [
+      {
+        "feature": "recency_fraction",
+        "ref_mean": 0.2847,
+        "cur_mean": 0.2945,
+        "ref_median": 0.0929,
+        "cur_median": 0.1037,
+        "psi": 0.0696,
+        "ks_stat": 0.1072,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "active_day_fraction",
+        "ref_mean": 0.2375,
+        "cur_mean": 0.2221,
+        "ref_median": 0.1822,
+        "cur_median": 0.1711,
+        "psi": 0.0094,
+        "ks_stat": 0.036,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "clicks_per_active_day",
+        "ref_mean": 19.2651,
+        "cur_mean": 19.8173,
+        "ref_median": 16.118,
+        "cur_median": 17.5412,
+        "psi": 0.0191,
+        "ks_stat": 0.0573,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "weekly_cv_active_span",
+        "ref_mean": 1.2535,
+        "cur_mean": 1.3365,
+        "ref_median": 1.1833,
+        "cur_median": 1.2656,
+        "psi": 0.0283,
+        "ks_stat": 0.072,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "deadline_click_ratio",
+        "ref_mean": 2.5341,
+        "cur_mean": 2.7223,
+        "ref_median": 1.8865,
+        "cur_median": 1.8885,
+        "psi": 0.0284,
+        "ks_stat": 0.0399,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "avg_score_scheduled",
+        "ref_mean": 50.7652,
+        "cur_mean": 51.2221,
+        "ref_median": 61.0909,
+        "cur_median": 59.6,
+        "psi": 0.0161,
+        "ks_stat": 0.0252,
+        "ks_pvalue": 0.0006,
+        "status": "GREEN"
+      },
+      {
+        "feature": "last_minute_submission_share",
+        "ref_mean": 0.1815,
+        "cur_mean": 0.1916,
+        "ref_median": 0.0,
+        "cur_median": 0.0,
+        "psi": 0.0103,
+        "ks_stat": 0.0446,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "video_completion_rate",
+        "ref_mean": 0.6194,
+        "cur_mean": 0.6114,
+        "ref_median": 0.6393,
+        "cur_median": 0.6275,
+        "psi": 0.0025,
+        "ks_stat": 0.023,
+        "ks_pvalue": 0.0022,
+        "status": "GREEN"
+      },
+      {
+        "feature": "forum_posts_per_week",
+        "ref_mean": 0.2472,
+        "cur_mean": 0.1776,
+        "ref_median": 0.0294,
+        "cur_median": 0.0256,
+        "psi": 0.0445,
+        "ks_stat": 0.1566,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "night_login_share",
+        "ref_mean": 0.2892,
+        "cur_mean": 0.291,
+        "ref_median": 0.1623,
+        "cur_median": 0.1646,
+        "psi": 0.0038,
+        "ks_stat": 0.0163,
+        "ks_pvalue": 0.0653,
+        "status": "GREEN"
+      }
+    ],
+    "segment_shares": [
+      {
+        "segment_id": "S0",
+        "reference_share": 0.1248,
+        "current_share": 0.127,
+        "shift_pp": 0.2168
+      },
+      {
+        "segment_id": "S1",
+        "reference_share": 0.3362,
+        "current_share": 0.2927,
+        "shift_pp": -4.3475
+      },
+      {
+        "segment_id": "S2",
+        "reference_share": 0.3273,
+        "current_share": 0.3765,
+        "shift_pp": 4.9132
+      },
+      {
+        "segment_id": "S3",
+        "reference_share": 0.2116,
+        "current_share": 0.2038,
+        "shift_pp": -0.7825
+      }
+    ]
+  },
+  "stress_test": {
+    "batch": "stress scenario (simulated)",
+    "evaluated_at": "2026-11-23T05:43:54+00:00",
+    "n_reference": 21333,
+    "n_current": 11260,
+    "features_red": 6,
+    "max_segment_shift_pp": 19.87768847520569,
+    "segment_chi2_pvalue": 0.0,
+    "mean_centroid_shift_sd": 1.8279523182856068,
+    "centroid_shifts_sd": [
+      1.337,
+      1.842,
+      2.305
+    ],
+    "atypical_share": 0.12288911495422176,
+    "silhouette_current": 0.1654315103860445,
+    "silhouette_train": 0.20566131370253202,
+    "checks": {
+      "feature_drift": "RED",
+      "segment_share": "RED",
+      "centroid_shift": "RED",
+      "atypical_share": "AMBER",
+      "silhouette": "GREEN"
+    },
+    "decision": "RE-CLUSTER",
+    "feature_drift": [
+      {
+        "feature": "recency_fraction",
+        "ref_mean": 0.2847,
+        "cur_mean": 0.3905,
+        "ref_median": 0.0929,
+        "cur_median": 0.2037,
+        "psi": 4.0347,
+        "ks_stat": 0.514,
+        "ks_pvalue": 0.0,
+        "status": "RED"
+      },
+      {
+        "feature": "active_day_fraction",
+        "ref_mean": 0.2375,
+        "cur_mean": 0.1497,
+        "ref_median": 0.1822,
+        "cur_median": 0.1156,
+        "psi": 0.3026,
+        "ks_stat": 0.1889,
+        "ks_pvalue": 0.0,
+        "status": "RED"
+      },
+      {
+        "feature": "clicks_per_active_day",
+        "ref_mean": 19.2651,
+        "cur_mean": 19.8173,
+        "ref_median": 16.118,
+        "cur_median": 17.5412,
+        "psi": 0.0191,
+        "ks_stat": 0.0573,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "weekly_cv_active_span",
+        "ref_mean": 1.2535,
+        "cur_mean": 1.3365,
+        "ref_median": 1.1833,
+        "cur_median": 1.2656,
+        "psi": 0.0283,
+        "ks_stat": 0.072,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "deadline_click_ratio",
+        "ref_mean": 2.5341,
+        "cur_mean": 4.3552,
+        "ref_median": 1.8865,
+        "cur_median": 3.0288,
+        "psi": 0.2972,
+        "ks_stat": 0.211,
+        "ks_pvalue": 0.0,
+        "status": "RED"
+      },
+      {
+        "feature": "avg_score_scheduled",
+        "ref_mean": 50.7652,
+        "cur_mean": 51.2221,
+        "ref_median": 61.0909,
+        "cur_median": 59.6,
+        "psi": 0.0161,
+        "ks_stat": 0.0252,
+        "ks_pvalue": 0.0006,
+        "status": "GREEN"
+      },
+      {
+        "feature": "last_minute_submission_share",
+        "ref_mean": 0.1815,
+        "cur_mean": 0.3839,
+        "ref_median": 0.0,
+        "cur_median": 0.1,
+        "psi": 0.7952,
+        "ks_stat": 0.5572,
+        "ks_pvalue": 0.0,
+        "status": "RED"
+      },
+      {
+        "feature": "video_completion_rate",
+        "ref_mean": 0.6194,
+        "cur_mean": 0.4615,
+        "ref_median": 0.6393,
+        "cur_median": 0.4775,
+        "psi": 1.2873,
+        "ks_stat": 0.3194,
+        "ks_pvalue": 0.0,
+        "status": "RED"
+      },
+      {
+        "feature": "forum_posts_per_week",
+        "ref_mean": 0.2472,
+        "cur_mean": 0.1776,
+        "ref_median": 0.0294,
+        "cur_median": 0.0256,
+        "psi": 0.0445,
+        "ks_stat": 0.1566,
+        "ks_pvalue": 0.0,
+        "status": "GREEN"
+      },
+      {
+        "feature": "night_login_share",
+        "ref_mean": 0.2892,
+        "cur_mean": 0.5221,
+        "ref_median": 0.1623,
+        "cur_median": 0.4196,
+        "psi": 2.8339,
+        "ks_stat": 0.5259,
+        "ks_pvalue": 0.0,
+        "status": "RED"
+      }
+    ],
+    "segment_shares": [
+      {
+        "segment_id": "S0",
+        "reference_share": 0.1248,
+        "current_share": 0.127,
+        "shift_pp": 0.2168
+      },
+      {
+        "segment_id": "S1",
+        "reference_share": 0.3362,
+        "current_share": 0.1612,
+        "shift_pp": -17.5003
+      },
+      {
+        "segment_id": "S2",
+        "reference_share": 0.3273,
+        "current_share": 0.5261,
+        "shift_pp": 19.8777
+      },
+      {
+        "segment_id": "S3",
+        "reference_share": 0.2116,
+        "current_share": 0.1857,
+        "shift_pp": -2.5942
+      }
+    ]
+  },
+  "over_time": [
+    {
+      "presentation": "2013B",
+      "enrollments": 4684,
+      "silhouette": 0.2221,
+      "mean_centroid_shift_sd": 0.3567,
+      "atypical_share": 0.0441,
+      "psi_active_day_fraction": 0.0334,
+      "Consistent Achievers": 0.4088,
+      "Last-minute Crammers": 0.2639,
+      "At-risk Disengaged": 0.2186,
+      "Non-starters": 0.1087
+    },
+    {
+      "presentation": "2013J",
+      "enrollments": 8845,
+      "silhouette": 0.1986,
+      "mean_centroid_shift_sd": 0.1465,
+      "atypical_share": 0.0555,
+      "psi_active_day_fraction": 0.0022,
+      "Consistent Achievers": 0.3441,
+      "Last-minute Crammers": 0.3435,
+      "At-risk Disengaged": 0.1949,
+      "Non-starters": 0.1175
+    },
+    {
+      "presentation": "2014B",
+      "enrollments": 7804,
+      "silhouette": 0.1929,
+      "mean_centroid_shift_sd": 0.2505,
+      "atypical_share": 0.0475,
+      "psi_active_day_fraction": 0.0111,
+      "Consistent Achievers": 0.2836,
+      "Last-minute Crammers": 0.3471,
+      "At-risk Disengaged": 0.2264,
+      "Non-starters": 0.1429
+    },
+    {
+      "presentation": "2014J",
+      "enrollments": 11260,
+      "silhouette": 0.1929,
+      "mean_centroid_shift_sd": 0.2666,
+      "atypical_share": 0.047,
+      "psi_active_day_fraction": 0.0094,
+      "Consistent Achievers": 0.2927,
+      "Last-minute Crammers": 0.3765,
+      "At-risk Disengaged": 0.2038,
+      "Non-starters": 0.127
+    }
+  ],
+  "evidently_reports": {
+    "2014J": "evidently_drift_2014J.html",
+    "stress": "evidently_drift_stress_scenario.html"
+  },
+  "evidently_2014J": [
+    {
+      "metric": "DriftedColumnsCount(drift_share=0.5)",
+      "value": {
+        "count": 2.0,
+        "share": 0.2
+      }
+    }
+  ],
+  "evidently_stress": [
+    {
+      "metric": "DriftedColumnsCount(drift_share=0.5)",
+      "value": {
+        "count": 7.0,
+        "share": 0.7
+      }
+    }
+  ]
+}

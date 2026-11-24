@@ -1,0 +1,18 @@
+source,issue,rule,action,affected,denominator,affected_pct,justification
+OULAD,inconsistent categorical label,imd_band == '10-20',relabel to '10-20%',3516,32593,10.788,"All other IMD bands use the 'x-y%' format; same decile, two spellings."
+OULAD,missing value,imd_band is null,category 'Unknown' + flag,1111,32593,3.409,Deprivation band is not imputable from behaviour; explicit category avoids bias (Lecture 7: global constant).
+OULAD,missing value,date_registration is null,keep NA + flag,45,32593,0.138,"Registration day is unknown, not zero; only used for days-to-first-login, which becomes NA."
+OULAD,cross-field inconsistency,Withdrawn XOR date_unregistration present,flag only,102,32593,0.313,"Administrative fields disagree; neither can be verified, so no value is invented."
+OULAD,outlier,total_clicks > Q3 + 3 IQR within course,flag; Yeo-Johnson + winsorising in features,551,32593,1.691,Very active learners are real; Yeo-Johnson transform + winsorising limit leverage (Lecture 7: do nothing / transform).
+OULAD,possible duplicate events,identical studentVle rows,retain (documented sensitivity),787170,10655280,7.388,OULAD has no event id; identical daily rows may be distinct interactions. Removing them changes window clicks by ~3%.
+Synthetic sessions,duplicate rows,all columns identical,drop,21505,2709570,0.794,Same session_id and identical payload = logging retry.
+Synthetic sessions,duplicate key,session_id repeated with different payload,drop later copy,0,2688065,0.0,Primary key must be unique.
+Synthetic sessions,inconsistent categorical labels,device_type spelling/synonyms,"map to {desktop, mobile, tablet}",212852,2688065,7.918,"e.g. 'PC', ' desktop', 'DESKTOP' are the same device class."
+Synthetic sessions,missing value,device_type is null,category 'unknown',26880,2688065,1.0,Device cannot be inferred reliably from a free-text user agent.
+Synthetic sessions,invalid value,session_minutes < 0,set NA then impute,5374,2688065,0.2,Negative duration is impossible (clock error).
+Synthetic sessions,invalid value,session_minutes > 1440,set NA then impute,2697,2688065,0.1,Session longer than 24h = unclosed session; true length unknown.
+Synthetic sessions,invalid value,videos_completed > videos_started,cap at videos_started,8064,2688065,0.3,A video cannot be completed without being started.
+Synthetic sessions,bot-like activity,">=2 of 4 rules (IQR session count, sub-minute, automation UA, uniform hours)",drop automated sessions of flagged enrollments,108031,2688065,4.019,114 enrollments flagged; human sessions of those learners kept.
+Synthetic sessions,missing value,session_minutes is null,learner median (+flag),59289,2580034,2.298,Lecture 7: attribute mean/median within the same group harms distribution least; flag preserves the information.
+Synthetic submissions,duplicate key,"(id_assessment, id_student) repeated",drop,0,167044,0.0,One submission per learner per assessment.
+Synthetic submissions,invalid value,submit_hour outside 0..23,none needed,0,167044,0.0,Validity check passed.

@@ -1,0 +1,7 @@
+feature,raw,log1p,box_cox(x+1),yeo_johnson,rank_normal
+total_clicks,2.927,-0.926,-0.036,-0.036,0.012
+clicks_per_active_day,1.994,-0.366,0.017,0.017,0.013
+weekly_cv_active_span,0.919,-0.446,0.042,0.042,0.076
+deadline_click_ratio,1.839,0.108,0.007,0.007,0.18
+forum_posts_per_week,9.471,3.594,0.827,0.827,0.649
+logins_per_week,1.481,0.191,0.031,0.031,0.013

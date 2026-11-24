@@ -1,0 +1,583 @@
+{
+  "bot_enrollments": [
+    {
+      "id_student": 353660,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 469887,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 2308528,
+      "code_module": "BBB",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 2644404,
+      "code_module": "EEE",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 447124,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 563534,
+      "code_module": "EEE",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 435258,
+      "code_module": "FFF",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 1493739,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 496334,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 445429,
+      "code_module": "DDD",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 697283,
+      "code_module": "DDD",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 610225,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 628506,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 558404,
+      "code_module": "FFF",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 582536,
+      "code_module": "GGG",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 643285,
+      "code_module": "DDD",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 418216,
+      "code_module": "EEE",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 592372,
+      "code_module": "EEE",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 657290,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 540694,
+      "code_module": "DDD",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 559744,
+      "code_module": "BBB",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 591619,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 597485,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 128889,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 282388,
+      "code_module": "GGG",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 653567,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 266514,
+      "code_module": "DDD",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 2464118,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 557650,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 104772,
+      "code_module": "DDD",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 650031,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 643172,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 169894,
+      "code_module": "DDD",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 113702,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 608472,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 549706,
+      "code_module": "FFF",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 651655,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 516634,
+      "code_module": "FFF",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 652664,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 470653,
+      "code_module": "BBB",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 584325,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 605890,
+      "code_module": "DDD",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 389101,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 541763,
+      "code_module": "BBB",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 597912,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 692522,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 557285,
+      "code_module": "BBB",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 612814,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 650791,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 199029,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 683299,
+      "code_module": "GGG",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 1095916,
+      "code_module": "DDD",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 600817,
+      "code_module": "DDD",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 634414,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 598285,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 579571,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 291544,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 586137,
+      "code_module": "EEE",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 525832,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 238007,
+      "code_module": "AAA",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 643705,
+      "code_module": "EEE",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 2619719,
+      "code_module": "FFF",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 65656,
+      "code_module": "FFF",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 644482,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 466959,
+      "code_module": "BBB",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 350949,
+      "code_module": "DDD",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 652501,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 1573624,
+      "code_module": "EEE",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 580342,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 548861,
+      "code_module": "EEE",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 577427,
+      "code_module": "EEE",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 387289,
+      "code_module": "DDD",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 685105,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 577562,
+      "code_module": "EEE",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 568446,
+      "code_module": "DDD",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 646184,
+      "code_module": "EEE",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 631693,
+      "code_module": "GGG",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 553425,
+      "code_module": "FFF",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 2417702,
+      "code_module": "GGG",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 588436,
+      "code_module": "FFF",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 629822,
+      "code_module": "DDD",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 382432,
+      "code_module": "EEE",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 523872,
+      "code_module": "EEE",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 381414,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 347864,
+      "code_module": "BBB",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 554470,
+      "code_module": "CCC",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 561054,
+      "code_module": "EEE",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 620231,
+      "code_module": "DDD",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 426137,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 611496,
+      "code_module": "GGG",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 631561,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 228729,
+      "code_module": "FFF",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 573697,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 508326,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 602818,
+      "code_module": "FFF",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 566652,
+      "code_module": "DDD",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 2197511,
+      "code_module": "FFF",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 382339,
+      "code_module": "DDD",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 655484,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 591591,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 618253,
+      "code_module": "GGG",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 551234,
+      "code_module": "BBB",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 151917,
+      "code_module": "BBB",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 616464,
+      "code_module": "BBB",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 641433,
+      "code_module": "FFF",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 609605,
+      "code_module": "EEE",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 556171,
+      "code_module": "DDD",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 617578,
+      "code_module": "GGG",
+      "code_presentation": "2014B"
+    },
+    {
+      "id_student": 610537,
+      "code_module": "CCC",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 179892,
+      "code_module": "DDD",
+      "code_presentation": "2013B"
+    },
+    {
+      "id_student": 2452902,
+      "code_module": "DDD",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 548666,
+      "code_module": "FFF",
+      "code_presentation": "2013J"
+    },
+    {
+      "id_student": 373280,
+      "code_module": "DDD",
+      "code_presentation": "2014J"
+    },
+    {
+      "id_student": 615319,
+      "code_module": "BBB",
+      "code_presentation": "2014B"
+    }
+  ],
+  "bot_sessions": 108031,
+  "messy_device_labels": 215045,
+  "missing_session_minutes": 53761,
+  "missing_device_type": 26880,
+  "negative_minutes": 5376,
+  "over_24h_minutes": 2688,
+  "completed_gt_started": 8064,
+  "exact_duplicate_rows": 21505,
+  "final_rows": 2709570
+}

@@ -1,0 +1,11 @@
+feature,between_cluster_F_ratio
+recency_fraction,3.545
+avg_score_scheduled,2.377
+active_day_fraction,1.773
+forum_posts_per_week,0.864
+weekly_cv_active_span,0.467
+video_completion_rate,0.331
+deadline_click_ratio,0.329
+last_minute_submission_share,0.165
+clicks_per_active_day,0.069
+night_login_share,0.04

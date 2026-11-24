@@ -1,0 +1,3 @@
+course_domain,enrollments,median_active_day_fraction,median_logins_per_week,mean_avg_score,mean_last_minute_share,withdrawal_rate,at_risk_rate
+STEM,21402,0.178,1.714,43.208,0.178,0.343,0.552
+Social Sciences,11191,0.106,1.0,47.075,0.132,0.251,0.482

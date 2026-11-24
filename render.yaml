@@ -1,0 +1,28 @@
+# Render Blueprint: deploys the API and the dashboard as two free web services.
+# Render dashboard -> New -> Blueprint -> select this repository.
+services:
+  - type: web
+    name: learner-segmentation-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: PREDICTION_LOG
+        value: /tmp/prediction_log.jsonl
+  - type: web
+    name: learner-segmentation-dashboard
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app/dashboard/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      # Set after the API is live, e.g. https://learner-segmentation-api.onrender.com
+      # (left empty, the dashboard uses the same model in-process)
+      - key: API_URL
+        sync: false

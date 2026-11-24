@@ -1,0 +1,51 @@
+{
+  "anomalies": {
+    "negative_minutes": 5412,
+    "over_1440_minutes": 2724,
+    "missing_minutes": 54046,
+    "exact_duplicate_rows": 21505,
+    "distinct_device_labels": 17,
+    "enrollments_above_20_logins_per_week": 88
+  },
+  "relationships": {
+    "rho_logins_score": 0.7358517998464644,
+    "rho_video_leadtime": 0.13724610140887616,
+    "rho_logins_exam": 0.21833736031657724
+  },
+  "skew_total_clicks": 3.03690966758115,
+  "n_no_activity": 4093,
+  "by_cohort_withdrawal": {
+    "2013B": 0.288,
+    "2013J": 0.268,
+    "2014B": 0.335,
+    "2014J": 0.34
+  },
+  "by_period_at_risk": {
+    "early (>60 d before)": 0.551,
+    "standard (15-60 d)": 0.507,
+    "late (<15 d)": 0.497,
+    "after start": 0.496
+  },
+  "by_domain": [
+    {
+      "course_domain": "STEM",
+      "enrollments": 21402,
+      "median_active_day_fraction": 0.178,
+      "median_logins_per_week": 1.714,
+      "mean_avg_score": 43.208,
+      "mean_last_minute_share": 0.178,
+      "withdrawal_rate": 0.343,
+      "at_risk_rate": 0.552
+    },
+    {
+      "course_domain": "Social Sciences",
+      "enrollments": 11191,
+      "median_active_day_fraction": 0.106,
+      "median_logins_per_week": 1.0,
+      "mean_avg_score": 47.075,
+      "mean_last_minute_share": 0.132,
+      "withdrawal_rate": 0.251,
+      "at_risk_rate": 0.482
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "selected_features": [
+    "recency_fraction",
+    "active_day_fraction",
+    "clicks_per_active_day",
+    "weekly_cv_active_span",
+    "deadline_click_ratio",
+    "avg_score_scheduled",
+    "last_minute_submission_share",
+    "video_completion_rate",
+    "forum_posts_per_week",
+    "night_login_share"
+  ],
+  "n_clustered": 28500,
+  "n_non_starters": 4093,
+  "n_train_clustered": 18670,
+  "n_monitor": 11260,
+  "pca_explained": [
+    0.327,
+    0.192,
+    0.099,
+    0.096,
+    0.093,
+    0.064,
+    0.053,
+    0.044,
+    0.023,
+    0.009
+  ],
+  "pcs_for_80pct": 5,
+  "max_abs_rho_selected": 0.7994307350859329,
+  "engagement_score_by_outcome": {
+    "Distinction": 82.1,
+    "Fail": 40.7,
+    "Pass": 74.8,
+    "Withdrawn": 24.5
+  },
+  "pca_vs_full": [
+    {
+      "space": "all 10 standardised features",
+      "dims": 10,
+      "silhouette_in_own_space": 0.171,
+      "silhouette_in_original_space": 0.171
+    },
+    {
+      "space": "first 5 PCs (80% var)",
+      "dims": 5,
+      "silhouette_in_own_space": 0.232,
+      "silhouette_in_original_space": 0.179
+    }
+  ]
+}

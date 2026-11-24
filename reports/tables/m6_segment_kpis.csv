@@ -1,0 +1,5 @@
+persona,enrollments,share,median_engagement_score,pass_rate,distinction_rate,withdrawal_rate,at_risk_rate
+Non-starters,4093,0.126,5.39,0.001,0.0,0.885,0.999
+Consistent Achievers,10468,0.321,83.095,0.896,0.225,0.03,0.104
+Last-minute Crammers,11222,0.344,56.7,0.533,0.06,0.16,0.467
+At-risk Disengaged,6810,0.209,28.32,0.003,0.0,0.65,0.997

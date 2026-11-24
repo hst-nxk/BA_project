@@ -1,0 +1,101 @@
+{
+  "session_rows_before": 2709570,
+  "session_rows_after": 2580034,
+  "enrollments_before": 32593,
+  "enrollments_after": 32593,
+  "bot_detection": {
+    "true_positive": 114,
+    "false_positive": 0,
+    "false_negative": 0,
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "flagged_bot_enrollments": 114,
+  "r1_only_false_positives": 112,
+  "imd_relabelled": 3516,
+  "imd_missing": 1111,
+  "duplicate_session_rows": 21505,
+  "click_extreme_outliers": 551,
+  "scorecard": [
+    {
+      "table": "courses",
+      "rows": 22,
+      "columns": 3,
+      "completeness_pct": 100.0,
+      "missing_cells": 0,
+      "exact_duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "key": "code_module,code_presentation"
+    },
+    {
+      "table": "assessments",
+      "rows": 206,
+      "columns": 6,
+      "completeness_pct": 99.11,
+      "missing_cells": 11,
+      "exact_duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "key": "id_assessment"
+    },
+    {
+      "table": "studentInfo",
+      "rows": 32593,
+      "columns": 12,
+      "completeness_pct": 99.716,
+      "missing_cells": 1111,
+      "exact_duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "key": "id_student,code_module,code_presentation"
+    },
+    {
+      "table": "studentRegistration",
+      "rows": 32593,
+      "columns": 5,
+      "completeness_pct": 86.153,
+      "missing_cells": 22566,
+      "exact_duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "key": "id_student,code_module,code_presentation"
+    },
+    {
+      "table": "studentAssessment",
+      "rows": 173912,
+      "columns": 5,
+      "completeness_pct": 99.98,
+      "missing_cells": 173,
+      "exact_duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "key": "id_assessment,id_student"
+    },
+    {
+      "table": "vle",
+      "rows": 6364,
+      "columns": 6,
+      "completeness_pct": 72.538,
+      "missing_cells": 10486,
+      "exact_duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "key": "id_site"
+    },
+    {
+      "table": "synthetic_login_sessions",
+      "rows": 2709570,
+      "columns": 14,
+      "completeness_pct": 99.786,
+      "missing_cells": 81158,
+      "exact_duplicate_rows": 21505,
+      "duplicate_keys": 21505,
+      "key": "session_id"
+    },
+    {
+      "table": "synthetic_submission_events",
+      "rows": 167044,
+      "columns": 9,
+      "completeness_pct": 100.0,
+      "missing_cells": 0,
+      "exact_duplicate_rows": 0,
+      "duplicate_keys": 0,
+      "key": "id_assessment,id_student"
+    }
+  ]
+}

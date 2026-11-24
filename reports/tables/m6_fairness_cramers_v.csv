@@ -1,0 +1,7 @@
+attribute,cramers_v,p_value
+gender,0.0536,0.0
+disability,0.0596,0.0
+age_band,0.0961,0.0
+imd_band,0.0906,0.0
+highest_education,0.0844,0.0
+course_domain,0.1135,0.0

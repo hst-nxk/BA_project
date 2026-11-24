@@ -1,0 +1,11 @@
+course_domain,code_module,enrollments,at_risk_rate,avg_clicks
+STEM,CCC,4434,0.622,1006.0
+STEM,DDD,6272,0.584,804.0
+STEM,EEE,2934,0.438,1289.0
+STEM,FFF,7762,0.53,2163.0
+STEM,,21402,0.552,1405.0
+Social Sciences,AAA,748,0.29,1515.0
+Social Sciences,BBB,7909,0.525,629.0
+Social Sciences,GGG,2534,0.403,502.0
+Social Sciences,,11191,0.482,660.0
+,,32593,0.528,1149.0

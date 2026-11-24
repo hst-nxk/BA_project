@@ -1,0 +1,5 @@
+persona,intervention,learners_allocated,uplift,cost,spend,expected_extra_passes
+Last-minute Crammers,automated_nudges,2439.0,0.02,2.0,4878.0,58.54
+Last-minute Crammers,study_plan_coaching,1800.0,0.1,15.0,27000.0,172.8
+At-risk Disengaged,automated_nudges,2295.0,0.02,2.0,4590.0,36.72
+Non-starters,automated_nudges,1430.0,0.02,2.0,2860.0,28.6

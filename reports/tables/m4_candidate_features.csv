@@ -1,0 +1,22 @@
+feature,role,source,missing_pct,coef_variation,skew
+recency_fraction,R - share of course elapsed since last activity,OULAD,0.0,1.16,0.91
+active_day_fraction,F - share of course days with VLE activity,OULAD,0.0,0.87,1.09
+logins_per_week,F - synthetic login frequency,synthetic,0.0,0.91,1.48
+login_week_coverage,F - share of weeks with at least one login,synthetic,0.0,0.56,-0.22
+total_clicks,M - recorded resource interactions,OULAD,0.0,1.27,2.93
+clicks_per_week,M - interaction intensity,OULAD,0.0,1.27,2.91
+clicks_per_active_day,M - depth per study day,OULAD,0.0,0.61,1.99
+weekly_click_cv,Consistency - variability of weekly clicks (whole course),OULAD,0.0,0.62,1.33
+weekly_cv_active_span,Consistency - variability of weekly clicks within own active span,OULAD,0.0,0.48,0.92
+late_click_share,Pacing - share of clicks in last third,OULAD,0.0,1.06,1.09
+deadline_click_ratio,Pacing - click concentration on deadline days (1 = uniform),OULAD,0.0,0.95,1.84
+submission_rate,Performance - share of scheduled assessments submitted,OULAD,0.0,0.57,-0.66
+avg_score_scheduled,Performance - mean score over scheduled assessments,OULAD,0.0,0.63,-0.35
+on_time_rate_scheduled,Timeliness - on-time submissions / scheduled,OULAD,0.0,0.77,0.12
+last_minute_submission_share,Timeliness - submitted <24h before deadline,synthetic,0.0,1.43,1.61
+median_hours_before_deadline,Timeliness - typical lead time,synthetic,10.39,3.2,4.42
+video_completion_rate,Content - synthetic video completion,synthetic,0.0,0.31,-0.32
+forum_posts_per_week,Social - synthetic forum posts,synthetic,0.0,3.08,9.47
+night_login_share,Rhythm - logins 22:00-05:59,synthetic,0.0,1.11,0.9
+days_to_first_login,Onboarding - days from registration to first login,synthetic,0.02,0.83,1.07
+mobile_share,Context - mobile sessions,synthetic,0.0,0.99,0.46

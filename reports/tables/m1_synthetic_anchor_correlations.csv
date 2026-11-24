@@ -1,0 +1,6 @@
+synthetic vs real anchor,spearman_rho
+logins vs real active days,0.986
+forum posts vs real forum clicks,0.819
+video completion vs real avg score,0.489
+median hours before deadline vs real mean days early,0.911
+night-login share vs real deadline click ratio,0.215
