@@ -1,0 +1,12 @@
+# Keep binary artefacts byte-exact (no CRLF conversion on Windows checkouts)
+*.pdf     binary
+*.docx    binary
+*.pptx    binary
+*.xlsx    binary
+*.png     binary
+*.joblib  binary
+*.parquet binary
+*.html    -text
+# Files read on Linux (Render) keep LF endings
+.python-version text eol=lf
+*.sh      text eol=lf
