@@ -4,7 +4,7 @@
 
 Team / student: [names, student IDs] · Lecturer: [name] · Date: [submission date]
 
-Repository: https://github.com/hst-nxk/BA_project · Live dashboard: [Dashboard URL] · API: [API URL]/docs
+Repository: https://github.com/hst-nxk/BA_project · Live dashboard: https://learner-segmentation-dashboard.onrender.com · API: https://learner-segmentation-api.onrender.com/docs
 
 **Team roles and contributions**
 
@@ -573,7 +573,7 @@ assignment of a new learner (through the API, falling back to the in-process mod
 
 The cloud configuration is included: `render.yaml` (Render blueprint for the API and dashboard), Streamlit Community
 Cloud settings and a `Dockerfile` for Hugging Face Spaces. Instructions are in `docs/DEPLOYMENT.md`. Live links:
-[API URL] · [Dashboard URL].
+https://learner-segmentation-api.onrender.com · https://learner-segmentation-dashboard.onrender.com.
 
 <!-- pagebreak -->
 

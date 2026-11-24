@@ -219,7 +219,7 @@ def build():
                f"Serving = training assignment: {dep.get('agreement_with_training_assignment', 0):.0%} agreement on 2,000 learners",
                f"Latency p50 {dep.get('single_request_p50_ms', 0):.0f} ms per request",
                "Dashboard: overview & filters · persona profiles · learner lookup · assign new learner · monitoring",
-               "Live links: [API URL] · [Dashboard URL] · https://github.com/hst-nxk/BA_project"], 7.9, 1.6, 5.2, 5.5, 14)
+               "Live links: https://learner-segmentation-api.onrender.com · https://learner-segmentation-dashboard.onrender.com · https://github.com/hst-nxk/BA_project"], 7.9, 1.6, 5.2, 5.5, 14)
 
     s = d.slide("10 · Monitoring and re-clustering triggers", "PSI / KS + Evidently · segment shares · centroid shift · atypical share · silhouette")
     d.img(s, "m7_drift_comparison", 0.3, 1.4, w=8.0)
@@ -241,7 +241,7 @@ def build():
     s = d.slide("Demo & questions")
     d.img(s, "app_dashboard_lookup", 0.5, 1.5, w=7.0)
     d.text(s, ["Live demo: dashboard → learner lookup → assign new learner → monitoring",
-               "API docs: [API URL]/docs", "Code & data dictionary: https://github.com/hst-nxk/BA_project"], 7.6, 2.0, 5.4, 4, 16)
+               "API docs: https://learner-segmentation-api.onrender.com/docs", "Code & data dictionary: https://github.com/hst-nxk/BA_project"], 7.6, 2.0, 5.4, 4, 16)
     out = ROOT / "reports" / "Final_Presentation.pptx"
     d.p.save(out)
     print("slides:", out, d.n)

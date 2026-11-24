@@ -140,6 +140,6 @@ assignment of a new learner (through the API, falling back to the in-process mod
 
 The cloud configuration is included: `render.yaml` (Render blueprint for the API and dashboard), Streamlit Community
 Cloud settings and a `Dockerfile` for Hugging Face Spaces. Instructions are in `docs/DEPLOYMENT.md`. Live links:
-[API URL] · [Dashboard URL].
+https://learner-segmentation-api.onrender.com · https://learner-segmentation-dashboard.onrender.com.
 
 <!-- pagebreak -->

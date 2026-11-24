@@ -4,7 +4,7 @@ Business Analytics capstone. The project finds the behavioural segments of onlin
 tailored content, pacing and support. The segmentation model is deployed as an API and a dashboard and monitored for
 drift.
 
-**Repository:** https://github.com/hst-nxk/BA_project · **Live:** Dashboard [URL] · API [URL]/docs · Report `reports/Final_Report.pdf` · Slides `reports/Final_Presentation.pptx`
+**Repository:** https://github.com/hst-nxk/BA_project · **Live:** Dashboard https://learner-segmentation-dashboard.onrender.com · API https://learner-segmentation-api.onrender.com/docs · Report `reports/Final_Report.pdf` · Slides `reports/Final_Presentation.pptx`
 
 ## Results at a glance
 
@@ -74,7 +74,7 @@ Cloud deployment (Render / Streamlit Community Cloud / Hugging Face Spaces) is d
 ## API example
 
 ```bash
-curl -X POST <API_URL>/predict -H "Content-Type: application/json" -d '{
+curl -X POST https://learner-segmentation-api.onrender.com/predict -H "Content-Type: application/json" -d '{
   "recency_fraction": 0.08, "active_day_fraction": 0.14, "clicks_per_active_day": 15,
   "weekly_cv_active_span": 1.8, "deadline_click_ratio": 4.0, "avg_score_scheduled": 55,
   "last_minute_submission_share": 0.45, "video_completion_rate": 0.5,

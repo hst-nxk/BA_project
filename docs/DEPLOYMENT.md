@@ -56,5 +56,5 @@ never breaks while the API wakes up, because it falls back to the in-process mod
 | Component | URL |
 |---|---|
 | GitHub repository | https://github.com/hst-nxk/BA_project |
-| API (Swagger docs) | |
-| Dashboard | |
+| API (Swagger docs) | https://learner-segmentation-api.onrender.com/docs |
+| Dashboard | https://learner-segmentation-dashboard.onrender.com |

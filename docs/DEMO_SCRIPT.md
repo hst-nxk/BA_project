@@ -1,7 +1,7 @@
 # Presentation and live-demo script (about 15 minutes)
 
 Before class:
-* Open the API URL and the dashboard URL about 5 minutes before you present, so that free-tier instances wake up.
+* Open https://learner-segmentation-api.onrender.com/health and https://learner-segmentation-dashboard.onrender.com about 5 minutes before you present, so that free-tier instances wake up.
 * Keep `reports/figures/app_*.png` as a fallback. If the network fails, show them, or play a recorded demo.
 
 | Time | Slide / screen | Speaker | What to say |
@@ -31,7 +31,7 @@ Before class:
      → **At-risk Disengaged** (confidence ≈ 63%).
    * Point out "source: API": the dashboard called the deployed FastAPI service. Confidence =
      1 − d(nearest centroid) / d(second nearest), so 30% means clearly closer to one segment.
-5. **API docs** (`<API URL>/docs`). `POST /predict` → *Try it out* → Execute; then send `avg_score_scheduled = 140`
+5. **API docs** (`https://learner-segmentation-api.onrender.com/docs`). `POST /predict` → *Try it out* → Execute; then send `avg_score_scheduled = 140`
    to show the 422 validation error.
 6. **Monitoring tab.** NO ACTION vs RE-CLUSTER, the PSI chart, and the embedded Evidently report.
 
