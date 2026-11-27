@@ -1,13 +1,18 @@
 """Shared plotting style: one categorical order, fixed colour per persona, recessive axes."""
 from __future__ import annotations
 
+import sys
+
 import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
 from . import config as C
 
-matplotlib.use("Agg")
+# Inside a Jupyter kernel keep the inline backend so figures render in the notebook;
+# elsewhere (scripts, tests, servers) use the headless Agg backend.
+if "ipykernel" not in sys.modules:
+    matplotlib.use("Agg")
 
 CATEGORICAL = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
 TEXT, TEXT2, GRID, SURFACE = "#0b0b0b", "#52514e", "#e4e3df", "#fcfcfb"

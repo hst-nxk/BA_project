@@ -14,8 +14,9 @@
 # including invalid input, (3) checks training/serving consistency and latency, and (4) documents the cloud deployment.
 
 # %%
-import sys, time, json
+import sys, time, json, warnings
 from pathlib import Path
+warnings.filterwarnings("ignore", message=".*httpx.*starlette.testclient.*")
 ROOT = Path.cwd().parent if (Path.cwd().parent / "src").exists() else Path.cwd()
 sys.path.insert(0, str(ROOT / "src")); sys.path.insert(0, str(ROOT))
 import numpy as np, pandas as pd

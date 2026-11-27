@@ -26,8 +26,9 @@ The model is K-Means (k = 3) on 10 behavioural features, plus a rule for non-sta
 
 ## Data
 
-* **OULAD** (Open University Learning Analytics Dataset, CC BY 4.0): 32,593 enrollments, 10.6M click records.
-  Download with `python scripts/download_oulad.py`.
+* **OULAD** (Open University Learning Analytics Dataset, CC BY 4.0; Kuzilek et al., 2017): 32,593 enrollments,
+  10.6M click records. Kaggle: https://www.kaggle.com/datasets/anlgrbz/student-demographics-online-education-dataoulad.
+  `python scripts/download_oulad.py` downloads the same seven tables from the official OU/UCI source and checks them.
 * **Synthetic behavioural extension**, generated with Faker and business logic, seed 42:
   * login sessions, device, session length;
   * videos, forum posts;
@@ -39,15 +40,16 @@ The model is K-Means (k = 3) on 10 behavioural features, plus a rule for non-sta
 ## Project structure
 
 ```
-notebooks/           01-08 executed notebooks, one per module (sources: notebooks/_src, jupytext percent format)
-  01 Business understanding & data generation (Spark ETL, KPIs, synthetic data, data dictionary)
-  02 Exploratory data analysis (distributions, correlations, group comparisons, time series, OLAP)
-  03 Data quality & cleaning (scorecard, cleaning log, bot detection, before/after)
-  04 Feature engineering (RFM, encoding, Yeo-Johnson, scaling comparison, PCA, selection)
-  05 Model development (K-Means k-selection, hierarchical, DBSCAN, validation, stability, surrogate tree)
-  06 Personas & recommendations (profiles, early warning, decision EV, LP optimisation, fairness)
-  07 Model deployment (API tests, consistency, latency, cloud configuration)
-  08 Model monitoring (PSI/KS, segment shift, centroid shift, Evidently, re-clustering triggers)
+notebooks/           executed notebooks, numbered by project module (sources: notebooks/_src, jupytext percent format)
+  01  Module 1  Business understanding & data generation (Spark ETL, KPIs, synthetic data, data dictionary)
+  02  Module 2  Exploratory data analysis (distributions, correlations, group comparisons, time series, OLAP)
+  03  Module 3  Data quality & cleaning (scorecard, cleaning log, bot detection, before/after)
+  04  Module 4  Feature engineering (RFM, encoding, Yeo-Johnson, scaling comparison, PCA, selection)
+  05  Module 5  Model development (K-Means k-selection, hierarchical, DBSCAN, validation, stability, surrogate tree)
+  05b Module 5 + 8  Personas & recommendations (profiles, early warning, decision EV, LP optimisation, fairness)
+  06  Module 6  Model deployment (API tests, consistency, latency, cloud configuration)
+  07  Module 7  Model monitoring (PSI/KS, segment shift, centroid shift, Evidently, re-clustering triggers)
+      Module 8  final report and slides (submitted separately)
 src/edtech/          reusable package: etl_spark, synthetic, cleaning, features, modeling, business, monitoring, serving
 app/api/main.py      FastAPI service
 app/dashboard/app.py Streamlit dashboard

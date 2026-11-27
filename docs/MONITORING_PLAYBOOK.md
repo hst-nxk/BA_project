@@ -1,6 +1,6 @@
 # Monitoring playbook
 
-Implemented in `src/edtech/monitoring.py`, run by `notebooks/08_Model_Monitoring.ipynb`, shown on the dashboard's
+Implemented in `src/edtech/monitoring.py`, run by `notebooks/07_Model_Monitoring.ipynb`, shown on the dashboard's
 **Monitoring** tab and served by `GET /monitoring/latest`.
 
 ## When to run
